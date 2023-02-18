@@ -17,13 +17,20 @@
     "gulp-sass": "^5.1.0",
     "sass": "^1.58.1"
   },
-  "dependencies": {
-    "glob-parent": "^6.0.2"
-  },
   "description": "",
   "browserslist": [
     "last 1 version",
     "> 1%",
     "not dead"
-  ]
+  ],
+  "overrides": {
+    "chokidar": "3.5.3",
+    "glob-parent": "6.0.2",
+    "ua-parser-js": "^1.0.33",
+    "browser-sync":"^2.27.11"
+
+  },
+  "dependencies": {
+    "ua-parser-js": "^1.0.33"
+  }
 }

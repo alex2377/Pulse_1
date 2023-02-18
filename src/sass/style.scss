@@ -1,4 +1,12 @@
-@import url('base/_variables.scss');
-*{
-    font-family: 'MuseoSansCyrl',sans-serif;
+@import 'base/variables';
+*   {
+	font-family: MuseoSansCyrl, sans-serif;
+	box-sizing: border-box;
 }
+.container  {
+	max-width: 950px;
+	margin: 0 auto;
+}
+@import "blocks/_promo";
+@import "blocks/header";
+@import "blocks/buttons";
