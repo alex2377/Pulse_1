@@ -59,3 +59,42 @@
         }
     }
 }
+@media (max-width:767px){
+	.promo{
+		&__header{
+            font-size: 40px;
+        }
+        &__subheader{
+            font-size: 22px;
+        }
+	}
+}
+@media (max-width:575px){
+	.promo{
+        &__wrapper{
+            margin-top: 75px;
+            align-items: center;
+        }
+        &__header{
+            text-align: center;
+            font-size: 35px;
+        }
+        &__subheader{
+            text-align: center;
+            font-size: 17px;
+            &_mt{
+                margin-top: 10px;
+            }
+        }
+        &__icons{
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+        &__icon{
+            margin-top: 20px;
+        }
+    }
+}
