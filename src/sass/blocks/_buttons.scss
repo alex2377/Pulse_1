@@ -16,18 +16,25 @@
         font-size: 16px;
         margin-top: 65px;
     }
+
+    &_submit{
+        width: 100%;
+        height: 55px;
+        font-size: 16px;
+        color: #fff;
+    }
 }
 
 @media (max-width:767px){
-	.button:not([class~='button_main']){
-        width: 140px;
-        height: 25px;
+	.button:not([class~='button_main'],[class~='button_submit']){
+        width: 150px;
+        height: 30px;
     }
 }
 @media (max-width:575px){
 	.button{
-        &_main{
-            width: 240px;
+        &_main,&_submit{
+            width: 270px;
             font-size: 15px;
         }
     }

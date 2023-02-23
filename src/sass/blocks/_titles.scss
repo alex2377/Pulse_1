@@ -3,10 +3,19 @@
     font-weight: 700;
     text-align: center;
     color: #0d0d0d;
+    text-transform: uppercase;
+    &_left{
+        font-size: 36px;
+        text-align: left;
+        color: #fff;
+    }
 }
 @media (max-width:767px){
     .title{
         font-size: 27px;
+        &_left{
+            text-align: center;
+        }
     }
 }
 @media (max-width:575px){
