@@ -23,15 +23,20 @@
         font-size: 16px;
         color: #fff;
     }
+    &_mini{
+        width: 131px;
+        height: 40px;
+        font-size: 14px;
+    }
 }
 
-@media (max-width:767px){
+@media (max-width:768px){
 	.button:not([class~='button_main'],[class~='button_submit']){
         width: 150px;
         height: 30px;
     }
 }
-@media (max-width:575px){
+@media (max-width:576px){
 	.button{
         &_main,&_submit{
             width: 270px;
