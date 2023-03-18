@@ -19,6 +19,12 @@
         width: 70px;
         height: 70px;
 		margin: 0 auto;
+		&_animated{
+			animation: heartbeat 2s infinite;
+			&:hover{
+				animation-play-state: paused;
+			}
+		}
     }
 
     &__title{
